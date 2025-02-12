@@ -6,6 +6,7 @@
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
     "description": "Chrome extension which provides today's LGSP lunch menu with picture.",
+    "version": "1.0.0",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
@@ -31,5 +32,8 @@
             "type": "image/png",
             "purpose": "maskable"
         }
-    ]
+    ],
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'"
+    }
 }
